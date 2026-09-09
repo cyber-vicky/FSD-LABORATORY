@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+    <meta charset="UTF-8">
+    <title>My Personal Portfolio</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: lightgray;
+        }
+
+        h1, h2{
+            color: darkblue;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: blue;
+            margin: 10px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td{
+            border: 1px solid black;
+        }
+
+        th, td{
+            padding: 8px;
+            text-align: center;
+        }
+
+        input, textarea{
+            width: 300px;
+            padding: 5px;
+        }
+
+        input[type="submit"]{
+            background-color: blue;
+            color: white;
+            padding: 8px;
+        }
+
+        footer{
+            text-align: center;
+            margin-top: 20px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Intro -->
+    <header style="text-align:center;">
+        <h1>VIGNESH M</h1>
+        <p><i>B.Tech Information Technology Student</i></p>
+        <p>Register Number: 25ITR171</p>
+        <hr>
+    </header>
+
+    <!-- Navigation Links -->
+    <nav style="text-align:center;">
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#education">Education</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am <b>VIGNESH M</b>, a B.Tech Information Technology
+            student at Kongu Engineering College. I am interested in programming
+            and learning new technologies.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <ul>
+            <li><b>Programming Languages:</b> C++, Java</li>
+            <li><b>Area of Interest:</b> FULL STACK DEVELOPMENT</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+            </tr>
+
+            <tr>
+                <td>B.Tech Information Technology</td>
+                <td>Kongu Engineering College</td>
+                <td>2025 - 2029</td>
+            </tr>
+                        <tr>
+                <td>Higher Secondary</td>
+                <td>Bharathiyar Matric Higher Secondary School</td>
+                <td>2025</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"
+                   value="your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"
+                   value="@gmail.com" required><br><br>
+
+            <label for="msg">Message:</label><br>
+            <textarea id="msg" name="message" rows="3"></textarea><br><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+
+
+</body>
+</html>
