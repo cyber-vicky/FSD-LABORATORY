@@ -1,5 +1,25 @@
 {
   "dependencies": {
-    "express": "^5.3.0"
-  }
+    "express": "^5.3.0",
+    "mongodb": "^7.7.0"
+  },
+  "name": "fsd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Exercise3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyber-vicky/FSD-LABORATORY.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cyber-vicky/FSD-LABORATORY/issues"
+  },
+  "homepage": "https://github.com/cyber-vicky/FSD-LABORATORY#readme"
 }
